@@ -12,7 +12,7 @@ exports.config = {
   
     // Spec patterns are relative to the current working directory when
     // protractor is called.
-    specs: ['../tests/calculator.js'],
+    specs: ['../tests/login.js'],
   
     // Options to be passed to Jasmine.
     jasmineNodeOpts: {
@@ -64,9 +64,9 @@ exports.config = {
         var HTMLReport = require('protractor-html-reporter-2');
 
         testConfig = {
-            reportTitle: 'Protractor Test Execution Report',
+            reportTitle: 'Relatório de Teste com Protractor + Jasmine',
             outputPath: './',
-            outputFilename: 'ProtractorTestReport',
+            outputFilename: 'RelatorioTeste',
             screenshotPath: './screenshots',
             testBrowser: browserName,
             browserVersion: browserVersion,
