@@ -10,7 +10,7 @@ describe('Teste de login do sistema Energia', function () {
         loginPage.enterPassword('123456');
         loginPage.clickGo();
         
-        browser.sleep(2000)
+       // browser.sleep(2000)
 
     });
 
@@ -22,7 +22,7 @@ describe('Teste de login do sistema Energia', function () {
         loginPage.enterPassword('1234568');
         loginPage.clickGo();
         
-        browser.sleep(2000)
+     //   browser.sleep(2000)
 
     });
 
@@ -34,7 +34,7 @@ describe('Teste de login do sistema Energia', function () {
         loginPage.enterPassword('123456866');
         loginPage.clickGo();
         
-        browser.sleep(2000)
+      //  browser.sleep(2000)
 
     });
 
@@ -46,7 +46,7 @@ describe('Teste de login do sistema Energia', function () {
         loginPage.enterPassword('123456');
         loginPage.clickGo();
         
-        browser.sleep(2000)
+      //  browser.sleep(2000)
 
     });
 
@@ -58,7 +58,7 @@ describe('Teste de login do sistema Energia', function () {
         loginPage.enterPassword('');
         loginPage.clickGo();
         
-        browser.sleep(2000)
+    //    browser.sleep(2000)
 
     });
 
@@ -70,7 +70,7 @@ describe('Teste de login do sistema Energia', function () {
         loginPage.enterPassword('');
         loginPage.clickGo();
         
-        browser.sleep(2000)
+     //   browser.sleep(2000)
 
     });
 
@@ -82,7 +82,7 @@ describe('Teste de login do sistema Energia', function () {
         loginPage.enterPassword('123456');
         loginPage.clickGo();
         
-        browser.sleep(2000)
+    //    browser.sleep(2000)
 
     });
 
